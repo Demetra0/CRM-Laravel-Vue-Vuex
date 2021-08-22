@@ -29,10 +29,11 @@ UI: BootstrapVue</br>
 4) php artisan key:generate
 5) php artisan migrate
 6) php artisan jwt:secret
-7) php artisan serve</br></br>
-8) На странице register необходимо зарегистрировать аккаунт
-9) Далее отсканировать QR на экране приложением Google Authenticator
-10) Войти в аккаунт
+7) php artisan db:seed
+8) php artisan serve</br></br>
+9) На странице register необходимо зарегистрировать аккаунт
+10) Далее отсканировать QR на экране приложением Google Authenticator
+11) Войти в аккаунт
 ### Database
 1) Таблица Users - менеджеры (связь один к одному с Manager Stories)
 2) Таблица Manager Stories - история каждого менеджера
